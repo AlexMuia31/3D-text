@@ -10,7 +10,13 @@ export const Experience = () => {
     <>
       <group position-x={-1.5} rotation-y={THREE.MathUtils.degToRad(15)}>
         <primitive object={woodenSign.scene} />
-        <Text>
+        <Text
+          fontSize={0.3}
+          position={[0, 1.2, 0.01]}
+          maxWidth={1}
+          textAlign="center"
+          font="fonts/PlaywriteNZBasic-VariableFont_wght.ttf"
+        >
           Alex Muia <meshStandardMaterial color="#000" />
         </Text>
       </group>
