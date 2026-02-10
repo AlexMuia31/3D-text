@@ -21,6 +21,16 @@ export const Experience = () => {
         </Text>
       </group>
       <group position={[1.5, 0, 0]} rotation-y={-Math.PI / 4}>
+        <group position-y={3}>
+          <Text fontSize={0.2} anchorY={"bottom"}>
+            Link
+            <meshStandardMaterial color="#000" />
+          </Text>
+          <Text fontSize={0.2} anchorY={"top"}>
+            Alex's Personal Hero
+            <meshStandardMaterial color="#000" />
+          </Text>
+        </group>
         <Character />
       </group>
       <ContactShadows opacity={0.42} scale={42} far={42} />
